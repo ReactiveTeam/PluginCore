@@ -1,0 +1,5 @@
+C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\bin\Release\PluginCore.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\bin\Release\PluginCore.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\obj\Release\PluginCore.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\obj\Release\PluginCore.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\obj\Release\PluginCore.pdb

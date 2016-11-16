@@ -3,3 +3,6 @@ C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\bin\Debu
 C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\obj\Debug\PluginCore.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\obj\Debug\PluginCore.dll
 C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\obj\Debug\PluginCore.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\bin\Debug\FluentScheduler.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\bin\Debug\FluentScheduler.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\Reactive\PluginCore\bin\Debug\FluentScheduler.xml

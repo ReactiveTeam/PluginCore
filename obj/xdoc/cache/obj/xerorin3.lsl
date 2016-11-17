@@ -1,0 +1,423 @@
+id: PluginCore
+language: CSharp
+name:
+  Default: PluginCore
+qualifiedName:
+  Default: PluginCore
+type: Assembly
+modifiers: {}
+items:
+- id: PluginCore
+  commentId: N:PluginCore
+  language: CSharp
+  name:
+    CSharp: PluginCore
+    VB: PluginCore
+  nameWithType:
+    CSharp: PluginCore
+    VB: PluginCore
+  qualifiedName:
+    CSharp: PluginCore
+    VB: PluginCore
+  type: Namespace
+  assemblies:
+  - PluginCore
+  modifiers: {}
+  items:
+  - id: PluginCore.IPlugin
+    commentId: T:PluginCore.IPlugin
+    language: CSharp
+    name:
+      CSharp: IPlugin
+      VB: IPlugin
+    nameWithType:
+      CSharp: IPlugin
+      VB: IPlugin
+    qualifiedName:
+      CSharp: PluginCore.IPlugin
+      VB: PluginCore.IPlugin
+    type: Interface
+    assemblies:
+    - PluginCore
+    namespace: PluginCore
+    source:
+      remote:
+        path: PluginCore/IPlugin.cs
+        branch: master
+        repo: https://github.com/ReactiveTeam/ReactiveMain.git
+      id: IPlugin
+      path: PluginCore/IPlugin.cs
+      startLine: 11
+    summary: "\nPlugin interface. Implement this in your class to allow it to be detected by the plugin manager.\n"
+    example: []
+    syntax:
+      content:
+        CSharp: public interface IPlugin
+        VB: Public Interface IPlugin
+    modifiers:
+      CSharp:
+      - public
+      - interface
+      VB:
+      - Public
+      - Interface
+    items:
+    - id: PluginCore.IPlugin.pluginName
+      commentId: P:PluginCore.IPlugin.pluginName
+      language: CSharp
+      name:
+        CSharp: pluginName
+        VB: pluginName
+      nameWithType:
+        CSharp: IPlugin.pluginName
+        VB: IPlugin.pluginName
+      qualifiedName:
+        CSharp: PluginCore.IPlugin.pluginName
+        VB: PluginCore.IPlugin.pluginName
+      type: Property
+      assemblies:
+      - PluginCore
+      namespace: PluginCore
+      source:
+        remote:
+          path: PluginCore/IPlugin.cs
+          branch: master
+          repo: https://github.com/ReactiveTeam/ReactiveMain.git
+        id: pluginName
+        path: PluginCore/IPlugin.cs
+        startLine: 17
+      summary: "\nThe modules name\n"
+      example: []
+      syntax:
+        content:
+          CSharp: string pluginName { get; }
+          VB: ReadOnly Property pluginName As String
+        parameters: []
+        return:
+          type: System.String
+      overload: PluginCore.IPlugin.pluginName*
+      modifiers:
+        CSharp:
+        - get
+        VB:
+        - ReadOnly
+    - id: PluginCore.IPlugin.pluginDescription
+      commentId: P:PluginCore.IPlugin.pluginDescription
+      language: CSharp
+      name:
+        CSharp: pluginDescription
+        VB: pluginDescription
+      nameWithType:
+        CSharp: IPlugin.pluginDescription
+        VB: IPlugin.pluginDescription
+      qualifiedName:
+        CSharp: PluginCore.IPlugin.pluginDescription
+        VB: PluginCore.IPlugin.pluginDescription
+      type: Property
+      assemblies:
+      - PluginCore
+      namespace: PluginCore
+      source:
+        remote:
+          path: PluginCore/IPlugin.cs
+          branch: master
+          repo: https://github.com/ReactiveTeam/ReactiveMain.git
+        id: pluginDescription
+        path: PluginCore/IPlugin.cs
+        startLine: 22
+      summary: "\nThe modules description\n"
+      example: []
+      syntax:
+        content:
+          CSharp: string pluginDescription { get; }
+          VB: ReadOnly Property pluginDescription As String
+        parameters: []
+        return:
+          type: System.String
+      overload: PluginCore.IPlugin.pluginDescription*
+      modifiers:
+        CSharp:
+        - get
+        VB:
+        - ReadOnly
+    - id: PluginCore.IPlugin.pluginAuthor
+      commentId: P:PluginCore.IPlugin.pluginAuthor
+      language: CSharp
+      name:
+        CSharp: pluginAuthor
+        VB: pluginAuthor
+      nameWithType:
+        CSharp: IPlugin.pluginAuthor
+        VB: IPlugin.pluginAuthor
+      qualifiedName:
+        CSharp: PluginCore.IPlugin.pluginAuthor
+        VB: PluginCore.IPlugin.pluginAuthor
+      type: Property
+      assemblies:
+      - PluginCore
+      namespace: PluginCore
+      source:
+        remote:
+          path: PluginCore/IPlugin.cs
+          branch: master
+          repo: https://github.com/ReactiveTeam/ReactiveMain.git
+        id: pluginAuthor
+        path: PluginCore/IPlugin.cs
+        startLine: 27
+      summary: "\nThe modules author\n"
+      example: []
+      syntax:
+        content:
+          CSharp: string pluginAuthor { get; }
+          VB: ReadOnly Property pluginAuthor As String
+        parameters: []
+        return:
+          type: System.String
+      overload: PluginCore.IPlugin.pluginAuthor*
+      modifiers:
+        CSharp:
+        - get
+        VB:
+        - ReadOnly
+    - id: PluginCore.IPlugin.Start
+      commentId: M:PluginCore.IPlugin.Start
+      language: CSharp
+      name:
+        CSharp: Start()
+        VB: Start()
+      nameWithType:
+        CSharp: IPlugin.Start()
+        VB: IPlugin.Start()
+      qualifiedName:
+        CSharp: PluginCore.IPlugin.Start()
+        VB: PluginCore.IPlugin.Start()
+      type: Method
+      assemblies:
+      - PluginCore
+      namespace: PluginCore
+      source:
+        remote:
+          path: PluginCore/IPlugin.cs
+          branch: master
+          repo: https://github.com/ReactiveTeam/ReactiveMain.git
+        id: Start
+        path: PluginCore/IPlugin.cs
+        startLine: 33
+      summary: "\nRuns anything at the start of the program\n"
+      example: []
+      syntax:
+        content:
+          CSharp: void Start()
+          VB: Sub Start
+      overload: PluginCore.IPlugin.Start*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: PluginCore.IPlugin.Stop
+      commentId: M:PluginCore.IPlugin.Stop
+      language: CSharp
+      name:
+        CSharp: Stop()
+        VB: Stop()
+      nameWithType:
+        CSharp: IPlugin.Stop()
+        VB: IPlugin.Stop()
+      qualifiedName:
+        CSharp: PluginCore.IPlugin.Stop()
+        VB: PluginCore.IPlugin.Stop()
+      type: Method
+      assemblies:
+      - PluginCore
+      namespace: PluginCore
+      source:
+        remote:
+          path: PluginCore/IPlugin.cs
+          branch: master
+          repo: https://github.com/ReactiveTeam/ReactiveMain.git
+        id: Stop
+        path: PluginCore/IPlugin.cs
+        startLine: 38
+      summary: "\nRuns anything at the end of the program or when the module is unloaded\n"
+      example: []
+      syntax:
+        content:
+          CSharp: void Stop()
+          VB: Sub Stop
+      overload: PluginCore.IPlugin.Stop*
+      modifiers:
+        CSharp: []
+        VB: []
+    - id: PluginCore.IPlugin.Tick
+      commentId: M:PluginCore.IPlugin.Tick
+      language: CSharp
+      name:
+        CSharp: Tick()
+        VB: Tick()
+      nameWithType:
+        CSharp: IPlugin.Tick()
+        VB: IPlugin.Tick()
+      qualifiedName:
+        CSharp: PluginCore.IPlugin.Tick()
+        VB: PluginCore.IPlugin.Tick()
+      type: Method
+      assemblies:
+      - PluginCore
+      namespace: PluginCore
+      source:
+        remote:
+          path: PluginCore/IPlugin.cs
+          branch: master
+          repo: https://github.com/ReactiveTeam/ReactiveMain.git
+        id: Tick
+        path: PluginCore/IPlugin.cs
+        startLine: 43
+      summary: "\nRuns anything in a loop\n"
+      example: []
+      syntax:
+        content:
+          CSharp: void Tick()
+          VB: Sub Tick
+      overload: PluginCore.IPlugin.Tick*
+      modifiers:
+        CSharp: []
+        VB: []
+references:
+  System:
+    name:
+      CSharp:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+      VB:
+      - name: System
+        nameWithType: System
+        qualifiedName: System
+    isDefinition: true
+    commentId: N:System
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+    parent: System
+    commentId: T:System.String
+  PluginCore.IPlugin.pluginName*:
+    name:
+      CSharp:
+      - id: PluginCore.IPlugin.pluginName*
+        name: pluginName
+        nameWithType: IPlugin.pluginName
+        qualifiedName: PluginCore.IPlugin.pluginName
+      VB:
+      - id: PluginCore.IPlugin.pluginName*
+        name: pluginName
+        nameWithType: IPlugin.pluginName
+        qualifiedName: PluginCore.IPlugin.pluginName
+    isDefinition: true
+    commentId: Overload:PluginCore.IPlugin.pluginName
+  PluginCore.IPlugin.pluginDescription*:
+    name:
+      CSharp:
+      - id: PluginCore.IPlugin.pluginDescription*
+        name: pluginDescription
+        nameWithType: IPlugin.pluginDescription
+        qualifiedName: PluginCore.IPlugin.pluginDescription
+      VB:
+      - id: PluginCore.IPlugin.pluginDescription*
+        name: pluginDescription
+        nameWithType: IPlugin.pluginDescription
+        qualifiedName: PluginCore.IPlugin.pluginDescription
+    isDefinition: true
+    commentId: Overload:PluginCore.IPlugin.pluginDescription
+  PluginCore.IPlugin.pluginAuthor*:
+    name:
+      CSharp:
+      - id: PluginCore.IPlugin.pluginAuthor*
+        name: pluginAuthor
+        nameWithType: IPlugin.pluginAuthor
+        qualifiedName: PluginCore.IPlugin.pluginAuthor
+      VB:
+      - id: PluginCore.IPlugin.pluginAuthor*
+        name: pluginAuthor
+        nameWithType: IPlugin.pluginAuthor
+        qualifiedName: PluginCore.IPlugin.pluginAuthor
+    isDefinition: true
+    commentId: Overload:PluginCore.IPlugin.pluginAuthor
+  PluginCore.IPlugin.Start*:
+    name:
+      CSharp:
+      - id: PluginCore.IPlugin.Start*
+        name: Start
+        nameWithType: IPlugin.Start
+        qualifiedName: PluginCore.IPlugin.Start
+      VB:
+      - id: PluginCore.IPlugin.Start*
+        name: Start
+        nameWithType: IPlugin.Start
+        qualifiedName: PluginCore.IPlugin.Start
+    isDefinition: true
+    commentId: Overload:PluginCore.IPlugin.Start
+  PluginCore.IPlugin.Stop*:
+    name:
+      CSharp:
+      - id: PluginCore.IPlugin.Stop*
+        name: Stop
+        nameWithType: IPlugin.Stop
+        qualifiedName: PluginCore.IPlugin.Stop
+      VB:
+      - id: PluginCore.IPlugin.Stop*
+        name: Stop
+        nameWithType: IPlugin.Stop
+        qualifiedName: PluginCore.IPlugin.Stop
+    isDefinition: true
+    commentId: Overload:PluginCore.IPlugin.Stop
+  PluginCore.IPlugin.Tick*:
+    name:
+      CSharp:
+      - id: PluginCore.IPlugin.Tick*
+        name: Tick
+        nameWithType: IPlugin.Tick
+        qualifiedName: PluginCore.IPlugin.Tick
+      VB:
+      - id: PluginCore.IPlugin.Tick*
+        name: Tick
+        nameWithType: IPlugin.Tick
+        qualifiedName: PluginCore.IPlugin.Tick
+    isDefinition: true
+    commentId: Overload:PluginCore.IPlugin.Tick
+  PluginCore.IPlugin:
+    name:
+      CSharp:
+      - id: PluginCore.IPlugin
+        name: IPlugin
+        nameWithType: IPlugin
+        qualifiedName: PluginCore.IPlugin
+      VB:
+      - id: PluginCore.IPlugin
+        name: IPlugin
+        nameWithType: IPlugin
+        qualifiedName: PluginCore.IPlugin
+    isDefinition: true
+    commentId: T:PluginCore.IPlugin
+  PluginCore:
+    name:
+      CSharp:
+      - name: PluginCore
+        nameWithType: PluginCore
+        qualifiedName: PluginCore
+      VB:
+      - name: PluginCore
+        nameWithType: PluginCore
+        qualifiedName: PluginCore
+    isDefinition: true
+    commentId: N:PluginCore

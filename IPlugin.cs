@@ -28,8 +28,19 @@ namespace PluginCore
         string pluginAuthor { get; }
         #endregion
 
+        /// <summary>
+        /// Runs anything at the start of the program
+        /// </summary>
         void Start();
+
+        /// <summary>
+        /// Runs anything at the end of the program or when the module is unloaded
+        /// </summary>
         void Stop();
+
+        /// <summary>
+        /// Runs anything in a loop
+        /// </summary>
         void Tick();
     }
 }

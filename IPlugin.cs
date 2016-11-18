@@ -29,6 +29,11 @@ namespace PluginCore
         #endregion
 
         /// <summary>
+        /// Should the module add an navItem?
+        /// </summary>
+        string navItem { get; }
+
+        /// <summary>
         /// Runs anything at the start of the program
         /// </summary>
         void Start();

@@ -26,6 +26,11 @@ namespace PluginCore
         /// The modules author
         /// </summary>
         string pluginAuthor { get; }
+
+        /// <summary>
+        /// The modules version
+        /// </summary>
+        string pluginVersion { get; }
         #endregion
 
         /// <summary>

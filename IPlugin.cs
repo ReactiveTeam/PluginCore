@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace PluginCore
 {
     /// <summary>
-    /// Plugin interface. Implement this in your class to allow it to be detected by the plugin manager.
+    /// Plugin interface. Implement this in your class to allow it to be detected by the plugin manager. 
     /// </summary>
     public interface IPlugin
     {
